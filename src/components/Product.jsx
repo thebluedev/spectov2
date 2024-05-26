@@ -1,10 +1,9 @@
-
 import SplineEmbed from "./SplineEmbed.jsx";
 function Product() {
   return (
     <div className="relative h-screen w-screen flex items-center overflow-x-hidden">
       <div className="object-cover w-full h-full absolute bg-black hidden"></div>
-      <SplineEmbed className="object-cover w-full h-full absolute"/>
+      <SplineEmbed className="object-cover w-full h-full absolute" />
       <div className="absolute text-white ml-10 lg:ml-40 z-[70]">
         <h1 className="text-8xl font-bold">DefXV</h1>
         <p className="text-2xl">Our product blah blah blah</p>

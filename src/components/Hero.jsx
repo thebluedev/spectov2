@@ -13,6 +13,13 @@ const Hero = () => {
           <h1 className="text-6xl font-bold">SpectoV</h1>
           <p className="text-xl">SUM MORE TEXX</p>
         </div>
+        <div
+        className="flex mt-5"
+        >
+          <div className="z-[70] w-16 h-16 bg-white mt-[65vh] m-2 rounded-full"></div>
+          <div className="z-[70] w-16 h-16 bg-white mt-[65vh] m-2 rounded-full"></div>
+          <div className="z-[70] w-16 h-16 bg-white mt-[65vh] m-2 rounded-full"></div>
+        </div>
       </div>
     </div>
   );
